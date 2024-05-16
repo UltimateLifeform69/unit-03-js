@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Welcome to MADLIBS</h1> 
+   <label>a name</label>
+   <input id="name">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>a Greeting</label>
+   <input id="greeting">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>a Place</label>
+   <input id="place">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>a person</label>
+   <input id="person1">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>another person</label>
+   <input id="person2">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>a evil doer</label>
+   <input id="badperson">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label>a verb</label>
+   <input id="verb">
+   <button onclick="clickMe()">
+    Submit
+</button>
+   <br>
+   <label for="colorinput">Color</label>
+   <input type="color" id="colorInput">
+   <button onclick="clickMe()">
+    Submit
+</button>
+<p id="para">
+</p>
+   <script>
+    let nameInput = document.getElementById("name")
+    let greetingInput = document.getElementById("greeting")
+    let placeInput = document.getElementById("place")
+    let person1Input = document.getElementById("person1")
+    let person2Input = document.getElementById("person2")
+    let person3Input = document.getElementById("badperson")
+    let verbInput = document.getElementById("verb")
+    let colorInput = document.getElementById("color")
+    let para = document.getElementById("para")
+
+    function clickMe () {
+            document.body.style.backgroundcolor = colorInput.value
+        }
+   </script>
+
+</body>
+</html>
